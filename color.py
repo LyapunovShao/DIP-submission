@@ -4,7 +4,7 @@ from PIL import Image
 
 path = './'
 png = 'disparity.png'
-alpha = 2.2
+alpha = 1.6
 
 def main():
     depth = cv2.imread(path+png)
